@@ -1,5 +1,6 @@
 # Slim-framework
 
+(there is a simple example in the file index.php)
 * Welcome
 
 Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs. At its core, Slim is a dispatcher that receives an HTTP request, invokes an appropriate callback routine, and returns an HTTP response. That’s it.
@@ -71,4 +72,5 @@ composer require laminas/laminas-diactoros
 documentation: 
 
 https://www.slimframework.com/
+
 https://www.slimframework.com/docs/v4/
