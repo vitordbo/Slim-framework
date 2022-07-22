@@ -1,11 +1,5 @@
 # Slim-framework
 
-* System Requirements
-
-Web server with URL rewriting
-
-PHP 7.4 or newer
-
 * Welcome
 
 Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs. At its core, Slim is a dispatcher that receives an HTTP request, invokes an appropriate callback routine, and returns an HTTP response. That’s it.
@@ -24,7 +18,13 @@ First, you need a web server like Nginx or Apache. You should configure your web
 
 A Slim app contains routes that respond to specific HTTP requests. Each route invokes a callback and returns an HTTP response. To get started, you first instantiate and configure the Slim application. Next, you define your application routes. Finally, you run the Slim application. It’s that easy. Here’s an example application:
 
-* Installation
+* System Requirements:
+
+Web server with URL rewriting
+
+PHP 7.4 or newer
+
+* Installation:
 
 * Step 1: 
 
@@ -35,7 +35,7 @@ Install Composer : https://getcomposer.org/download/
 Install Slim
 We recommend you install Slim with Composer. Navigate into your project’s root directory and execute the bash command shown below. This command downloads the Slim Framework and its third-party dependencies into your project’s vendor/ directory.
 
-* composer require slim/slim:"4.*"
+composer require slim/slim:"4.*"
 
 * Step 3: 
 
@@ -67,3 +67,8 @@ composer require sapphirecat/slim4-http-interop-adapter
 * Laminas Diactoros
 
 composer require laminas/laminas-diactoros
+
+documentation: 
+
+https://www.slimframework.com/
+https://www.slimframework.com/docs/v4/
